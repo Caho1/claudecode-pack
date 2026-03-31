@@ -1,5 +1,11 @@
 # Claude Code 项目结构解析
 
+> **声明**
+>
+> - 本仓库**不隶属于 Anthropic 官方**，也**不是 Anthropic 官方项目**。
+> - 本仓库内容是基于 Anthropic 公开发布的 npm 包及其中包含的 `cli.js.map` source map 所做的结构还原与分析。
+> - 本仓库内容**仅用于学习、研究和项目结构分析**。
+
 这个仓库主要存放从 `@anthropic-ai/claude-code@2.1.88` 的 npm 发布包中还原出来的源码结构，以及我基于 `cli.js.map` 做的项目结构解析。
 
 这份 README 不再重点讲“如何解包”，而是直接作为这个项目的结构导览。
