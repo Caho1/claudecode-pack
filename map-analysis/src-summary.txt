@@ -1,0 +1,261 @@
+src/ top-level counts:
+- QueryEngine.ts: 1
+- Task.ts: 1
+- Tool.ts: 1
+- assistant: 1
+  - sessionHistory.ts: 1
+- bootstrap: 1
+  - state.ts: 1
+- bridge: 31
+  - pollConfigDefaults.ts: 1
+  - bridgeConfig.ts: 1
+  - bridgeApi.ts: 1
+  - codeSessionApi.ts: 1
+  - sessionIdCompat.ts: 1
+  - debugUtils.ts: 1
+  - replBridgeHandle.ts: 1
+  - replBridgeTransport.ts: 1
+  - bridgePointer.ts: 1
+  - flushGate.ts: 1
+- buddy: 6
+  - sprites.ts: 1
+  - prompt.ts: 1
+  - types.ts: 1
+  - CompanionSprite.tsx: 1
+  - useBuddyNotification.tsx: 1
+  - companion.ts: 1
+- cli: 19
+  - transports: 7
+  - handlers: 6
+  - exit.ts: 1
+  - print.ts: 1
+  - ndjsonSafeStringify.ts: 1
+  - structuredIO.ts: 1
+  - remoteIO.ts: 1
+  - update.ts: 1
+- commands: 207
+  - plugin: 17
+  - install-github-app: 14
+  - mcp: 4
+  - extra-usage: 4
+  - clear: 4
+  - review: 4
+  - remote-setup: 3
+  - context: 3
+  - add-dir: 3
+  - rename: 3
+- commands.ts: 1
+- components: 389
+  - permissions: 51
+  - messages: 41
+  - agents: 26
+  - PromptInput: 21
+  - design-system: 16
+  - LogoV2: 15
+  - mcp: 13
+  - tasks: 12
+  - Spinner: 12
+  - CustomSelect: 10
+- constants: 21
+  - oauth.ts: 1
+  - github-app.ts: 1
+  - systemPromptSections.ts: 1
+  - product.ts: 1
+  - messages.ts: 1
+  - figures.ts: 1
+  - common.ts: 1
+  - betas.ts: 1
+  - errorIds.ts: 1
+  - prompts.ts: 1
+- context: 9
+  - promptOverlayContext.tsx: 1
+  - fpsMetrics.tsx: 1
+  - overlayContext.tsx: 1
+  - mailbox.tsx: 1
+  - QueuedMessageContext.tsx: 1
+  - notifications.tsx: 1
+  - stats.tsx: 1
+  - modalContext.tsx: 1
+  - voice.tsx: 1
+- context.ts: 1
+- coordinator: 1
+  - coordinatorMode.ts: 1
+- cost-tracker.ts: 1
+- costHook.ts: 1
+- dialogLaunchers.tsx: 1
+- entrypoints: 8
+  - sdk: 3
+  - sandboxTypes.ts: 1
+  - init.ts: 1
+  - cli.tsx: 1
+  - mcp.ts: 1
+  - agentSdkTypes.ts: 1
+- history.ts: 1
+- hooks: 104
+  - notifs: 16
+  - toolPermission: 5
+  - renderPlaceholder.ts: 1
+  - useBackgroundTaskNavigation.ts: 1
+  - useFileHistorySnapshotInit.ts: 1
+  - useSwarmInitialization.ts: 1
+  - usePrStatus.ts: 1
+  - useCopyOnSelect.ts: 1
+  - useSessionBackgrounding.ts: 1
+  - useTasksV2.ts: 1
+- ink: 96
+  - components: 18
+  - hooks: 12
+  - events: 10
+  - termio: 9
+  - layout: 4
+  - focus.ts: 1
+  - squash-text-nodes.ts: 1
+  - output.ts: 1
+  - dom.ts: 1
+  - wrapAnsi.ts: 1
+- ink.ts: 1
+- interactiveHelpers.tsx: 1
+- keybindings: 14
+  - schema.ts: 1
+  - match.ts: 1
+  - KeybindingProviderSetup.tsx: 1
+  - loadUserBindings.ts: 1
+  - reservedShortcuts.ts: 1
+  - KeybindingContext.tsx: 1
+  - shortcutFormat.ts: 1
+  - template.ts: 1
+  - resolver.ts: 1
+  - validate.ts: 1
+- main.tsx: 1
+- memdir: 8
+  - memoryAge.ts: 1
+  - memdir.ts: 1
+  - teamMemPrompts.ts: 1
+  - memoryScan.ts: 1
+  - paths.ts: 1
+  - teamMemPaths.ts: 1
+  - findRelevantMemories.ts: 1
+  - memoryTypes.ts: 1
+- migrations: 11
+  - migrateBypassPermissionsAcceptedToSettings.ts: 1
+  - migrateLegacyOpusToCurrent.ts: 1
+  - migrateOpusToOpus1m.ts: 1
+  - migrateReplBridgeEnabledToRemoteControlAtStartup.ts: 1
+  - migrateSonnet45ToSonnet46.ts: 1
+  - migrateAutoUpdatesToSettings.ts: 1
+  - resetAutoModeOptInForDefaultOffer.ts: 1
+  - migrateSonnet1mToSonnet45.ts: 1
+  - resetProToOpusDefault.ts: 1
+  - migrateFennecToOpus.ts: 1
+- moreright: 1
+  - useMoreRight.tsx: 1
+- native-ts: 4
+  - yoga-layout: 2
+  - file-index: 1
+  - color-diff: 1
+- outputStyles: 1
+  - loadOutputStylesDir.ts: 1
+- plugins: 2
+  - builtinPlugins.ts: 1
+  - bundled: 1
+- projectOnboardingState.ts: 1
+- query: 4
+  - tokenBudget.ts: 1
+  - stopHooks.ts: 1
+  - config.ts: 1
+  - deps.ts: 1
+- query.ts: 1
+- remote: 4
+  - SessionsWebSocket.ts: 1
+  - remotePermissionBridge.ts: 1
+  - RemoteSessionManager.ts: 1
+  - sdkMessageAdapter.ts: 1
+- replLauncher.tsx: 1
+- schemas: 1
+  - hooks.ts: 1
+- screens: 3
+  - ResumeConversation.tsx: 1
+  - Doctor.tsx: 1
+  - REPL.tsx: 1
+- server: 3
+  - createDirectConnectSession.ts: 1
+  - types.ts: 1
+  - directConnectManager.ts: 1
+- services: 130
+  - mcp: 23
+  - api: 20
+  - compact: 11
+  - analytics: 9
+  - lsp: 7
+  - remoteManagedSettings: 5
+  - oauth: 5
+  - teamMemorySync: 5
+  - tools: 4
+  - autoDream: 4
+- setup.ts: 1
+- skills: 20
+  - bundled: 17
+  - bundledSkills.ts: 1
+  - mcpSkillBuilders.ts: 1
+  - loadSkillsDir.ts: 1
+- state: 6
+  - onChangeAppState.ts: 1
+  - teammateViewHelpers.ts: 1
+  - selectors.ts: 1
+  - AppStateStore.ts: 1
+  - AppState.tsx: 1
+  - store.ts: 1
+- tasks: 12
+  - LocalShellTask: 3
+  - InProcessTeammateTask: 2
+  - types.ts: 1
+  - stopTask.ts: 1
+  - pillLabel.ts: 1
+  - LocalMainSessionTask.ts: 1
+  - RemoteAgentTask: 1
+  - DreamTask: 1
+  - LocalAgentTask: 1
+- tasks.ts: 1
+- tools: 184
+  - AgentTool: 20
+  - BashTool: 18
+  - PowerShellTool: 14
+  - FileEditTool: 6
+  - LSPTool: 6
+  - WebFetchTool: 5
+  - ScheduleCronTool: 5
+  - ConfigTool: 5
+  - FileReadTool: 5
+  - BriefTool: 5
+- tools.ts: 1
+- types: 11
+  - generated: 4
+  - ids.ts: 1
+  - textInputTypes.ts: 1
+  - plugin.ts: 1
+  - permissions.ts: 1
+  - logs.ts: 1
+  - command.ts: 1
+  - hooks.ts: 1
+- upstreamproxy: 2
+  - upstreamproxy.ts: 1
+  - relay.ts: 1
+- utils: 564
+  - plugins: 44
+  - permissions: 24
+  - bash: 23
+  - swarm: 22
+  - settings: 19
+  - hooks: 17
+  - model: 16
+  - computerUse: 15
+  - shell: 10
+  - telemetry: 9
+- vim: 5
+  - motions.ts: 1
+  - operators.ts: 1
+  - transitions.ts: 1
+  - types.ts: 1
+  - textObjects.ts: 1
+- voice: 1
+  - voiceModeEnabled.ts: 1
